@@ -1,3 +1,8 @@
+# gw's custom st build
+All patches in the `patches` directory are already preapplied to the build. There is no need to apply any of the aforementioned patches to the build yourself. I strongly advise against it.
+This build uses the `st-xresources` patch, as such there is no need to interact with the source code to change most basic things. To see which changes can be applied through .Xresources, refer to `config.def.h`.
+
+# Default st README
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
